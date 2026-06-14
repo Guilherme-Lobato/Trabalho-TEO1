@@ -1,0 +1,7 @@
+REPETIR 3 {
+    SEMANA 1 {
+        DIA "Seg" {
+            CORRER 5 KM Z1
+        }
+    }
+}

@@ -1,0 +1,9 @@
+REPETIR 2 {
+    MES {
+        SEMANA 1 {
+            DIA "Sabado" {
+                CORRER 21.1 KM FORTE
+            }
+        }
+    }
+}

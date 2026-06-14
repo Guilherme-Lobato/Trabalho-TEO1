@@ -1,0 +1,8 @@
+MES "Fev" {
+    SEMANA 1 {
+        DIA "Ter" {
+            CORRER 10 KM FORTE
+            DESCANSAR 15 MIN
+        }
+    }
+}

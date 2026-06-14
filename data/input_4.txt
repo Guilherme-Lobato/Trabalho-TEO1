@@ -1,0 +1,9 @@
+MES "Mai" {
+    REPETIR 4 {
+        SEMANA {
+            DIA "Segunda" {
+                CORRER 10 KM Z2
+            }
+        }
+    }
+}

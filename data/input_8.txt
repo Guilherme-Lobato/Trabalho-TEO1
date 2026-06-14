@@ -1,0 +1,7 @@
+MES "Mar" {
+    SEMANA 1 {
+        DIA "Ter" {
+            CORRER 5 LEVE
+        }
+    }
+}

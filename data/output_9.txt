@@ -1,0 +1,9 @@
+=====================
+Planilha de Treino (REJEITADA)
+=====================
+Ocorreu um erro ao processar a planilha:
+Token inesperado 'SEMANA' (tipo SEMANA) na linha 2.
+
+=======================
+Input de entrada contem erros estruturais.
+=======================

@@ -1,0 +1,14 @@
+# Arquivo de explicação que não deve ser entregue/commitado
+EXPLICACAO_TRABALHO.md
+
+# Arquivos gerados pela biblioteca PLY e cache do Python
+__pycache__/
+*.pyc
+parser.out
+parsetab.py
+
+# Outros arquivos de sistema operacional e de ambiente
+.DS_Store
+.venv/
+venv/
+env/

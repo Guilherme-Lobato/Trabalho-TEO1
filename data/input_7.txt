@@ -1,0 +1,7 @@
+MES "Fev" {
+    SEMANA 1 {
+        DIA "Ter" {
+            CORRER KM LEVE 
+        }
+    }
+}

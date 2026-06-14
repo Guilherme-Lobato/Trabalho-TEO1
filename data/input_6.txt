@@ -1,0 +1,7 @@
+MES "Jan" 
+    SEMANA 1 {
+        DIA "Seg" {
+            CORRER 5 KM LEVE
+        }
+    }
+}

@@ -1,0 +1,9 @@
+=====================
+Planilha de Treino (REJEITADA)
+=====================
+Ocorreu um erro ao processar a planilha:
+Token inesperado 'KM' (tipo KM) na linha 4.
+
+=======================
+Input de entrada contem erros estruturais.
+=======================

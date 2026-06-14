@@ -1,0 +1,10 @@
+MES "Mar" {
+    SEMANA 1 {
+        DIA "Qua" {
+            REPETIR 4 {
+                CORRER 1 KM FORTE
+                DESCANSAR 2 MIN
+            }
+        }
+    }
+}

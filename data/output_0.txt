@@ -1,0 +1,13 @@
+=====================
+Planilha de Treino
+=====================
+Preparado para o seu novo ciclo de treinos?
+Aqui esta o resumo da sua jornada:
+
+- Distancia Total Estimada: 5.00 km
+- Tempo Total de Recuperacao: 0.00 min
+
+
+=======================
+Input de entrada aceito
+=======================

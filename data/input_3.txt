@@ -1,0 +1,9 @@
+MES "Abr" {
+    SEMANA 1 {
+        REPETIR 3 {
+            DIA {
+                CORRER 5.5 KM LEVE
+            }
+        }
+    }
+}
