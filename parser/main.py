@@ -21,14 +21,11 @@ def main():
             texto_saida = resultado
             aceito = True
         else:
-            texto_saida = """=====================
-Planilha de Treino (REJEITADA)
-=====================
-Ocorreu um erro ao processar a planilha. Entrada invalida.
-
-=======================
-Input de entrada contem erros estruturais.
-======================="""
+            texto_saida = """╔══════════════════════════════════════════╗
+║     PLANILHA DE TREINO: REJEITADA        ║
+╠══════════════════════════════════════════╣
+║ Ocorreu um erro estrutural na entrada.   ║
+╚══════════════════════════════════════════╝"""
             aceito = False
             
         with open(caminho_saida, 'w', encoding='utf-8') as arquivo:
@@ -40,15 +37,12 @@ Input de entrada contem erros estruturais.
             print(f"[REJEITADO] O arquivo {caminho_entrada} possui erros de sintaxe.")
 
     except Exception as erro:
-        texto_saida = f"""=====================
-Planilha de Treino (REJEITADA)
-=====================
-Ocorreu um erro ao processar a planilha:
-{str(erro)}
-
-=======================
-Input de entrada contem erros estruturais.
-======================="""
+        texto_saida = f"""╔══════════════════════════════════════════╗
+║     PLANILHA DE TREINO: REJEITADA        ║
+╠══════════════════════════════════════════╣
+║ Erro ao processar a planilha:            ║
+║ {str(erro)}
+╚══════════════════════════════════════════╝"""
         with open(caminho_saida, 'w', encoding='utf-8') as arquivo:
             arquivo.write(texto_saida)
         print(f"[REJEITADO] Erro ao processar {caminho_entrada}: {erro}")

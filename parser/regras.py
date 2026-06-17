@@ -1,23 +1,15 @@
 import ply.yacc as yacc
 from regex import tokens
 
-# A saída padrão do programa é construída no topo da árvore de regras
 def p_planilha(p):
     '''planilha : lista_meses'''
     km_total, min_total = p[1]
-    p[0] = f"""=====================
-Planilha de Treino
-=====================
-Preparado para o seu novo ciclo de treinos?
-Aqui esta o resumo da sua jornada:
-
-- Distancia Total Estimada: {km_total:.2f} km
-- Tempo Total de Recuperacao: {min_total:.2f} min
-
-
-=======================
-Input de entrada aceito
-======================="""
+    p[0] = f"""╔══════════════════════════════════════════╗
+║      PLANILHA DE TREINO: ACEITA          ║
+╠══════════════════════════════════════════╣
+║  Quilometragem Total : {km_total:7.2f} km        ║
+║  Tempo de Descanso   : {min_total:7.2f} min       ║
+╚══════════════════════════════════════════╝"""
 
 def p_mesUnico(p):
     '''lista_meses : bloco_mes'''
